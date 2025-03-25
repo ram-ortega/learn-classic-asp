@@ -17,6 +17,12 @@
   status = Request.Form("status")
   submit = Request.Form("submit")
 
+If condition Then
+  ' true
+Else
+  ' false
+End if
+
   If isNull(title) And Not isNull(submit) Then
     titleMessage = "Please write down the title"
   End If
